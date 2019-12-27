@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .tab-control {
     display: flex;
     text-align: center;
@@ -42,9 +42,5 @@ export default {
     flex: 1;
 
   }
-  .tab-control-item span:hover {
-    color: #ff5777;
-    border-bottom: 2px solid #ff5777;
-    padding: 0 2px 5px 2px;
-  }
+ 
 </style>
